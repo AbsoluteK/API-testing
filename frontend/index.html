@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Frontend</title>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <h1>Data from Backend</h1>
+    <ul id="data-list"></ul>
+    <form id="data-form">
+      <input type="text" id="name-input" placeholder="Enter name" required />
+      <button type="submit">Add</button>
+    </form>
+    <h2>Status Code Examples</h2>
+    <button id="redirect-btn">3xx Redirection</button>
+    <button id="client-error-btn">4xx Client Error</button>
+    <button id="server-error-btn">5xx Server Error</button>
+    <p id="status-message"></p>
+  </body>
+</html>
